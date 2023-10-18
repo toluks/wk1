@@ -1,24 +1,24 @@
 body{
     width: 778px;
-    margin: auto;
 }
 
 main{
     width: 75%;
+    margin: auto;
 
 }
 
 h1{
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
-    border-bottom-width: 32px;
+    border-bottom-width: 32px solid navy;
     border-bottom-style: solid;
     border-bottom-color: navy;
     padding: 1em 1em;
 }
 
 h2{
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #ffffff;
     background-color: #808080;
 
