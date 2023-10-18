@@ -1,0 +1,61 @@
+body{
+    width: 778px;
+    margin: auto;
+}
+
+main{
+    width: 75%;
+
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom-width: 32px;
+    border-bottom-style: solid;
+    border-bottom-color: navy;
+    padding: 16em 16em;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #808080;
+
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+    border-radius: 50%;
+
+}
+
+ul{
+    padding: 3em 0;
+    background: linear-gradient(to bottom, blue 25%,white 25%,white 25%,pink 75%);
+
+}
+
+ol{
+    padding: 5em 0;
+    background: radial-gradient(circle,blue 25%,white 25%,white 25%,yellow 75%);
+    border: 5px solid pink
+}
+
+dd{
+    background-image: conic-gradient(from 40deg, #fff, purple);
+    
+    
+}
+
+p{
+    line-height: 1.000em;
+    text-overflow:scroll ;
+    background-color: brown;
+    max-height: 55px;
+    overflow: auto;
+    overflow-y: scroll;
+    /* font-size: 3em; */
+}
