@@ -14,7 +14,7 @@ h1{
     border-bottom-width: 32px;
     border-bottom-style: solid;
     border-bottom-color: navy;
-    padding: 16em 16em;
+    padding: 1em 1em;
 }
 
 h2{
@@ -46,14 +46,16 @@ ol{
 
 dd{
     background-image: conic-gradient(from 40deg, #fff, purple);
+    color: transparent;
+    -webkit-background-clip: text;
     
     
 }
 
 p{
-    line-height: 1.000em;
+    line-height: 1.5;
     text-overflow:scroll ;
-    background-color: brown;
+    /* background-color: brown; */
     max-height: 55px;
     overflow: auto;
     overflow-y: scroll;
